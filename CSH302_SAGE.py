@@ -1,0 +1,41 @@
+#CSH302 Variables In Python 2019.1104
+show('#1) Find the area of a circle with radius 5')
+r=5;show('r=',r)
+PI=3.1415928;show('PI=',PI)
+area=PI*r^2;show('area=',area)
+show('')
+show('#2) What does this code do?')
+x=5;show('x=',x)
+x=2*x;show('x=',x)
+show('#3) List the allowed variable names')
+show('#3) name, d7, first_name, lastName, Amt')
+show('#3) List the disallowed variable names')
+show("#3) 2x, half-price, 'Bob'")
+show('')
+show('#4) Output your name!')
+firstName='Al';show('firstName=',firstName)
+lastName='Garcia';show('lastName=',lastName)
+fullName=firstName+' '+lastName;show('fullName=',fullName)
+show('')
+show('#5) What does this code do?')
+a=3;show('a=',a)
+b=2;show('b=',b)
+a=a+b;show('a=',a)
+b=a-b;show('b=',b)
+show('')
+show('#6) What does this code do?')
+age=5;show('age=',age) #show('len(age)=',len(age))
+age='five';show('age=',age);show('len(age)=',len(age))
+show('')
+show('#7) define a function to calculate x^4 using 2 multiplications')
+def pow4(x):
+    x=x*x
+    x=x*x
+    return x
+show('#7) pow4(5)=',pow4(5))
+show('')
+show('#8) What does this code do?')
+n=5
+s='+'*n
+show('#8) s=',s)
+show('#8) str(len(s))=',str(len(s)))
